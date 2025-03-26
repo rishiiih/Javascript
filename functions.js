@@ -14,12 +14,9 @@ function orderTea(teatype){
 let orderConfirmation = orderTea("chai");
 // console.log(orderConfirmation);
 
-
 const calculateTotal = (price, quantity) => price * quantity
  
 let totalCost = calculateTotal(499 * 100)
-
-
 
 function makeTea(typeOfTea){
   return `makeTea: ${typeOfTea}`;
@@ -31,4 +28,3 @@ function processTeaOrder(teaFunction){
 
 let order = processTeaOrder(makeTea)
 console.log(order);
-
