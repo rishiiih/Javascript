@@ -56,3 +56,5 @@ let myCar = new Car("Toyota", "Corolla")
 
 let vehOne = new Vehicle("Toyota", "Corolla")
 console.log(vehOne.make);
+
+
